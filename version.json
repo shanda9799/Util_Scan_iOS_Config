@@ -1,6 +1,6 @@
 {
   "latestVersion": "1.0.1",
-  "forceUpdate": false,
+  "forceUpdate": true,
   "updateMessage": "A new version is available with bug fixes and improvements.",
   "appStoreLink": "https://apps.apple.com/app/id你的AppID"
 }
