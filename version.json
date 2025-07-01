@@ -2,5 +2,6 @@
   "latestVersion": "1.0.0",
   "forceUpdate": false,
   "updateMessage": "A new version is available with bug fixes and improvements.",
-  "appStoreLink": "https://apps.apple.com/app/id你的AppID"
+  "appStoreLink": "https://apps.apple.com/app/id你的AppID",
+  "adsId":"ca-app-pub-3940256099942544/1712485313"
 }
