@@ -1,8 +1,8 @@
 {
   "latestVersion": "1.0.0",
-  "forceUpdate": true,
+  "forceUpdate": false,
   "updateMessage": "A new version is available with bug fixes and improvements.",
-  "appStoreLink": "https://apps.apple.com/app/id你的AppID",
+  "appStoreLink": "https://apps.apple.com/au/app/physical-scanner-connect/id1521553621?mt=12",
   "adsId": "ca-app-pub-3940256099942544/1712485313",
   "rate": 1,
   "isWatchAdsEnabled": false
