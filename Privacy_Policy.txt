@@ -1,0 +1,67 @@
+Privacy Policy for MobScan
+
+Last Updated: 10/08/2025
+
+MobScan (“we,” “our,” or “us”) values your privacy. This Privacy Policy explains what information is collected and how it is handled when you use our mobile application (“App”).
+
+1. Information We Collect
+
+We do not collect, store, or process any personal information from users.
+Our App does not require user registration or login.
+
+The only data collected is:
+	•	Anonymous crash and error reports to help us identify and fix bugs.
+	•	This data may include:
+	•	Device model and operating system version.
+	•	App version.
+	•	Time and type of crash or error.
+	•	No personally identifiable information (PII) is collected.
+
+⸻
+
+2. How We Use the Data
+
+The crash and error reports are used solely for:
+	•	Identifying technical issues.
+	•	Improving app stability and performance.
+
+⸻
+
+3. Data Storage & Security
+	•	All scanned documents and images remain stored locally on your device.
+	•	We do not automatically upload your files to any server.
+
+⸻
+
+4. Data Sharing
+
+We do not share any user data with third parties, except:
+	•	App bug/error reporting.
+	•	When required by law.
+
+⸻
+
+5. Third-Party Services
+
+Our App uses:
+	•	Google Crashlytics for crash and error reporting.
+You can read Google’s privacy policy here: https://policies.google.com/privacy
+
+⸻
+
+6. Children’s Privacy
+
+Our App is not directed to children under 13. We do not knowingly collect personal information from anyone, including children.
+
+⸻
+
+7. Changes to This Policy
+
+We may update this Privacy Policy from time to time. The updated version will be posted within the App or on our website.
+
+⸻
+
+8. Contact Us
+
+If you have any questions about this Privacy Policy, please contact us at:
+info.youti@gmail.com
