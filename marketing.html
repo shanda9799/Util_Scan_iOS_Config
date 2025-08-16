@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MobScan — Scan. Crop. Perfect. Share.</title>
+  <meta name="description" content="MobScan is a lightning‑fast document scanner for iPhone & iPad with precise edge detection, perspective fix, enhancement, and crisp PDF export.">
+  <meta name="theme-color" content="#4f46e5">
+  <!-- Open Graph -->
+  <meta property="og:title" content="MobScan — Scan. Crop. Perfect. Share.">
+  <meta property="og:description" content="Lightning‑fast document scanning with precise edges, perspective fix, and crisp export.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/assets/og-mobscan.jpg">
+  <meta property="og:url" content="https://yourdomain.com/">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MobScan — Scan. Crop. Perfect. Share.">
+  <meta name="twitter:description" content="Lightning‑fast document scanning with precise edges, perspective fix, and crisp export.">
+  <meta name="twitter:image" content="/assets/og-mobscan.jpg">
+
+  <!-- Tailwind CSS (Play CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { theme: { extend: { colors: { brand: {50:'#eef2ff',100:'#e0e7ff',200:'#c7d2fe',300:'#a5b4fc',400:'#818cf8',500:'#6366f1',600:'#4f46e5',700:'#4338ca',800:'#3730a3',900:'#312e81'} } } } };</script>
+  <style>
+    .gradient-blob{position:absolute;border-radius:9999px;filter:blur(40px);opacity:.6}
+    .ring-card{box-shadow:0 0 0 1px rgba(79,70,229,.08), 0 10px 25px rgba(2,6,23,.06)}
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-white via-white to-slate-50 text-slate-900">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-white/70 backdrop-blur border-b border-slate-100">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2">
+        <span class="inline-grid place-items-center h-8 w-8 rounded-2xl bg-gradient-to-br from-brand-500 to-violet-600 text-white shadow">
+          <!-- scan icon -->
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="10" rx="2"/><path d="M7 7V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/><path d="M7 17v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2"/></svg>
+        </span>
+        <span class="font-semibold">MobScan</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#features" class="hover:text-brand-600">Features</a>
+        <a href="#demo" class="hover:text-brand-600">Demo</a>
+        <a href="#pricing" class="hover:text-brand-600">Pricing</a>
+        <a href="#faq" class="hover:text-brand-600">FAQ</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <!-- TODO: Replace # with your App Store link -->
+        <a href="#" class="inline-flex items-center rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-sm font-medium h-10 px-4 transition">
+          <svg class="mr-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg>
+          Download
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="relative overflow-hidden">
+      <div class="gradient-blob -top-24 right-[-10%] h-72 w-72 bg-indigo-200"></div>
+      <div class="gradient-blob top-32 left-[-10%] h-72 w-72 bg-violet-200"></div>
+
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">MobScan: <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-violet-600">Scan. Crop. Perfect. Share.</span></h1>
+          <p class="mt-4 text-lg text-slate-600">Lightning‑fast document scanning with precise edges, perspective fix, and crisp export.</p>
+          <ul class="mt-6 space-y-3 text-slate-700">
+            <li class="flex items-start gap-3"><span class="text-brand-600 mt-0.5">✓</span> Ultra‑accurate edge detection & manual corner drag</li>
+            <li class="flex items-start gap-3"><span class="text-brand-600 mt-0.5">✓</span> One‑tap enhancement & perspective correction</li>
+            <li class="flex items-start gap-3"><span class="text-brand-600 mt-0.5">✓</span> Multi‑page PDFs, reorder, merge, and share</li>
+          </ul>
+          <div class="mt-8 flex flex-wrap items-center gap-3">
+            <a href="#" class="inline-flex items-center rounded-2xl bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold h-12 px-6 transition">Get MobScan</a>
+            <a href="#demo" class="inline-flex items-center gap-2 text-brand-700 font-medium">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Watch 40‑sec demo
+            </a>
+          </div>
+          <p class="mt-4 text-sm text-slate-500">No sign‑up required • Works offline • Private by design</p>
+        </div>
+
+        <!-- Device mockup -->
+        <div class="relative">
+          <div class="mx-auto aspect-[9/19.5] w-full max-w-sm rounded-[2.5rem] border border-slate-200 bg-white shadow-2xl p-3">
+            <div class="h-full w-full rounded-[2rem] overflow-hidden bg-slate-900/95 grid place-items-center">
+              <div class="p-6 w-full">
+                <div class="rounded-xl bg-slate-800/60 border border-slate-700 p-4 text-slate-100">
+                  <div class="flex items-center justify-between mb-2">
+                    <span class="text-xs uppercase tracking-wide text-slate-400">Live Scan</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-indigo-300"><path d="M12 2v4"/><path d="M12 18v4"/><path d="M4.93 4.93l2.83 2.83"/><path d="M16.24 16.24l2.83 2.83"/><path d="M2 12h4"/><path d="M18 12h4"/><path d="M4.93 19.07l2.83-2.83"/><path d="M16.24 7.76l2.83-2.83"/></svg>
+                  </div>
+                  <div class="aspect-video rounded-lg bg-gradient-to-br from-indigo-500/30 via-violet-500/20 to-sky-500/20 grid place-items-center">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="10" rx="2"/><path d="M7 7V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/><path d="M7 17v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2"/></svg>
+                  </div>
+                  <div class="mt-3 grid grid-cols-3 gap-2 text-xs text-slate-300">
+                    <span class="inline-flex items-center gap-1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18"/><path d="M6 3v4"/><path d="M18 3v4"/><rect x="6" y="7" width="12" height="14" rx="2"/></svg>Crop</span>
+                    <span class="inline-flex items-center gap-1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 8 4.6V4a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82 1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>Adjust</span>
+                    <span class="inline-flex items-center gap-1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>Multi‑page</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trusted bar -->
+    <div class="border-y border-slate-100 bg-white">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 flex flex-wrap items-center justify-center gap-6 text-slate-500 text-sm">
+        <span>Fast • Private • Pixel‑perfect</span>
+        <span class="hidden sm:inline">|</span>
+        <span>Built for iPhone & iPad</span>
+        <span class="hidden sm:inline">|</span>
+        <span>Export PDF / PNG</span>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <section id="features" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+      <div class="max-w-2xl">
+        <h2 class="text-3xl font-bold tracking-tight">Everything you need to nail the scan</h2>
+        <p class="mt-3 text-slate-600">From edge detection to export, MobScan keeps it fast, accurate, and delightful.</p>
+      </div>
+      <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Feature card -->
+        <article class="rounded-2xl border border-slate-200 bg-white ring-card p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="inline-grid place-items-center h-10 w-10 rounded-xl bg-brand-50 text-brand-600">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18"/><path d="M6 3v4"/><path d="M18 3v4"/><rect x="6" y="7" width="12" height="14" rx="2"/></svg>
+            </span>
+            <h3 class="font-semibold">Precise Corner Control</h3>
+          </div>
+          <p class="text-sm text-slate-600">Drag four corners with live magnifier. Snap‑to edges for pixel‑level accuracy.</p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white ring-card p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="inline-grid place-items-center h-10 w-10 rounded-xl bg-brand-50 text-brand-600">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/></svg>
+            </span>
+            <h3 class="font-semibold">One‑tap Enhancement</h3>
+          </div>
+          <p class="text-sm text-slate-600">Clean backgrounds, sharpen text. Toggle Original / Enhanced / Grayscale per page.</p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white ring-card p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="inline-grid place-items-center h-10 w-10 rounded-xl bg-brand-50 text-brand-600">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/></svg>
+            </span>
+            <h3 class="font-semibold">Pro‑grade PDF Export</h3>
+          </div>
+          <p class="text-sm text-slate-600">Multi‑page, reorder, merge, set page size and DPI for crisp printouts.</p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white ring-card p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="inline-grid place-items-center h-10 w-10 rounded-xl bg-brand-50 text-brand-600">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v-3a2 2 0 0 1 2-2h3"/><path d="M20 12v3a2 2 0 0 1-2 2h-3"/><path d="M8 12h8"/></svg>
+            </span>
+            <h3 class="font-semibold">Perspective Fix</h3>
+          </div>
+          <p class="text-sm text-slate-600">Instantly straighten skewed shots so pages look perfectly aligned.</p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white ring-card p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="inline-grid place-items-center h-10 w-10 rounded-xl bg-brand-50 text-brand-600">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22"/><path d="M5 8h14"/></svg>
+            </span>
+            <h3 class="font-semibold">Fine Controls</h3>
+          </div>
+          <p class="text-sm text-slate-600">Brightness, contrast, and tweak controls tuned for receipts, IDs, and contracts.</p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white ring-card p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="inline-grid place-items-center h-10 w-10 rounded-xl bg-brand-50 text-brand-600">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4"/><path d="M6 12H2"/><path d="M12 2v4"/><path d="M12 18v4"/><circle cx="12" cy="12" r="7"/></svg>
+            </span>
+            <h3 class="font-semibold">Private by Design</h3>
+          </div>
+          <p class="text-sm text-slate-600">Everything runs on‑device. No account, no upload. Your docs stay with you.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Demo video -->
+    <section id="demo" class="bg-slate-50/60 border-y border-slate-100">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 grid lg:grid-cols-2 gap-8 items-center">
+        <div>
+          <h3 class="text-2xl font-semibold">See MobScan in action</h3>
+          <p class="mt-3 text-slate-600">Real‑time edge detection, manual corner drag, and instant enhancement. Watch how a messy document becomes a crisp PDF in seconds.</p>
+          <ul class="mt-6 space-y-2 text-slate-700 text-sm">
+            <li class="flex items-start gap-2"><span class="text-brand-600 mt-0.5">✓</span> Live edge hints & corner snapping</li>
+            <li class="flex items-start gap-2"><span class="text-brand-600 mt-0.5">✓</span> Original / Enhanced / Grayscale modes</li>
+            <li class="flex items-start gap-2"><span class="text-brand-600 mt-0.5">✓</span> Multi‑page export with reorder</li>
+          </ul>
+        </div>
+        <div>
+          <div class="rounded-2xl border border-slate-200 overflow-hidden shadow-lg bg-white">
+            <!-- TODO: Replace src with your hosted video path, e.g., /assets/mobscan.mp4 -->
+            <video class="w-full h-auto" controls playsinline poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1280' height='720'%3E%3Crect width='100%25' height='100%25' fill='%23f8fafc'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='28' fill='%2394a3b8'%3EMobScan Demo%3C/text%3E%3C/svg%3E">
+              <source src="/assets/mobscan.mp4" type="video/mp4">
+            </video>
+          </div>
+          <p class="mt-2 text-xs text-slate-500">Tip: compress to H.264 MP4 for wide compatibility. Keep under ~15 MB for fast loads.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+      <div class="max-w-2xl">
+        <h3 class="text-2xl font-semibold">How it works</h3>
+        <p class="mt-2 text-slate-600">Four quick steps from paper to polished document.</p>
+      </div>
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <article class="rounded-2xl border border-slate-200 bg-white ring-card p-6">
+          <div class="flex items-center gap-3 mb-1">
+            <span class="inline-grid place-items-center h-10 w-10 rounded-xl bg-violet-50 text-violet-600">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="10" rx="2"/></svg>
+            </span>
+            <h4 class="font-semibold">Capture</h4>
+          </div>
+          <p class="text-sm text-slate-600">Point and shoot — automatic edge detection highlights the document instantly.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 bg-white ring-card p-6">
+          <div class="flex items-center gap-3 mb-1">
+            <span class="inline-grid place-items-center h-10 w-10 rounded-xl bg-violet-50 text-violet-600">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18"/><rect x="6" y="7" width="12" height="14" rx="2"/></svg>
+            </span>
+            <h4 class="font-semibold">Crop & Fix</h4>
+          </div>
+          <p class="text-sm text-slate-600">Drag corners with precision. Auto perspective correction straightens skewed shots.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 bg-white ring-card p-6">
+          <div class="flex items-center gap-3 mb-1">
+            <span class="inline-grid place-items-center h-10 w-10 rounded-xl bg-violet-50 text-violet-600">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
+            </span>
+            <h4 class="font-semibold">Enhance</h4>
+          </div>
+          <p class="text-sm text-slate-600">One‑tap Enhance or Grayscale cleans shadows and boosts readability.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 bg-white ring-card p-6">
+          <div class="flex items-center gap-3 mb-1">
+            <span class="inline-grid place-items-center h-10 w-10 rounded-xl bg-violet-50 text-violet-600">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v-3a2 2 0 0 1 2-2h3"/><path d="M20 12v3a2 2 0 0 1-2 2h-3"/><path d="M8 12h8"/></svg>
+            </span>
+            <h4 class="font-semibold">Export & Share</h4>
+          </div>
+          <p class="text-sm text-slate-600">Export as PDF/PNG, reorder pages, and share anywhere in one tap.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Quality showcase: tabs -->
+    <section class="bg-white border-y border-slate-100">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+        <div class="max-w-2xl">
+          <h3 class="text-2xl font-semibold">Crystal‑clear results</h3>
+          <p class="mt-2 text-slate-600">Before/After enhancement makes text pop while keeping edges natural.</p>
+        </div>
+        <div class="mt-6">
+          <div class="inline-flex rounded-xl border border-slate-200 bg-slate-50 p-1 text-sm" role="tablist" aria-label="Preview modes">
+            <button class="tab-btn px-4 py-2 rounded-lg" role="tab" aria-selected="false" data-target="#tab-original">Original</button>
+            <button class="tab-btn px-4 py-2 rounded-lg" role="tab" aria-selected="true" data-target="#tab-enhanced">Enhanced</button>
+            <button class="tab-btn px-4 py-2 rounded-lg" role="tab" aria-selected="false" data-target="#tab-bw">Grayscale</button>
+          </div>
+          <div class="mt-4">
+            <!-- TODO: Replace placeholders with real screenshots -->
+            <div id="tab-original" class="tab-panel hidden">
+              <div class="rounded-2xl border border-slate-200 overflow-hidden bg-slate-50">
+                <div class="aspect-[3/2] grid place-items-center text-slate-400 p-6 text-center">
+                  <div>
+                    <div class="font-medium">Original Preview</div>
+                    <div class="text-sm">Drop your original image here.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="tab-enhanced" class="tab-panel">
+              <div class="rounded-2xl border border-slate-200 overflow-hidden bg-slate-50">
+                <div class="aspect-[3/2] grid place-items-center text-slate-400 p-6 text-center">
+                  <div>
+                    <div class="font-medium">Enhanced Preview</div>
+                    <div class="text-sm">Drop your enhanced image here.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="tab-bw" class="tab-panel hidden">
+              <div class="rounded-2xl border border-slate-200 overflow-hidden bg-slate-50">
+                <div class="aspect-[3/2] grid place-items-center text-slate-400 p-6 text-center">
+                  <div>
+                    <div class="font-medium">Grayscale Preview</div>
+                    <div class="text-sm">Drop your grayscale image here.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+      <div class="text-center max-w-2xl mx-auto">
+        <h3 class="text-3xl font-bold">Simple pricing</h3>
+        <p class="mt-3 text-slate-600">Start free. Unlock pro controls when you need them.</p>
+      </div>
+      <div class="mt-10 grid md:grid-cols-2 gap-6">
+        <article class="rounded-2xl border border-slate-200 bg-white ring-card p-6">
+          <h4 class="text-lg font-semibold">Free</h4>
+          <ul class="mt-4 space-y-2 text-sm text-slate-700">
+            <li class="flex items-start gap-2"><span class="text-brand-600 mt-0.5">✓</span> Unlimited scans</li>
+            <li class="flex items-start gap-2"><span class="text-brand-600 mt-0.5">✓</span> Auto edge detect & manual crop</li>
+            <li class="flex items-start gap-2"><span class="text-brand-600 mt-0.5">✓</span> Enhance & Grayscale</li>
+            <li class="flex items-start gap-2"><span class="text-brand-600 mt-0.5">✓</span> Export PDF/PNG</li>
+          </ul>
+          <a href="#" class="mt-6 inline-flex items-center justify-center w-full rounded-xl bg-brand-600 hover:bg-brand-700 text-white h-11 font-medium transition">Download Free</a>
+        </article>
+        <article class="rounded-2xl border border-slate-200 bg-white ring-card p-6">
+          <h4 class="text-lg font-semibold">Pro <span class="text-sm font-normal text-slate-500">(optional)</span></h4>
+          <ul class="mt-4 space-y-2 text-sm text-slate-700">
+            <li class="flex items-start gap-2"><span class="text-brand-600 mt-0.5">✓</span> Batch export & page merge</li>
+            <li class="flex items-start gap-2"><span class="text-brand-600 mt-0.5">✓</span> Custom DPI / page size</li>
+            <li class="flex items-start gap-2"><span class="text-brand-600 mt-0.5">✓</span> iCloud sync (coming soon)</li>
+            <li class="flex items-start gap-2"><span class="text-brand-600 mt-0.5">✓</span> Priority support</li>
+          </ul>
+          <div class="mt-3 text-xs text-slate-500">One‑time purchase or annual plan — your call.</div>
+          <a href="#" class="mt-6 inline-flex items-center justify-center w-full rounded-xl border border-slate-300 bg-white hover:bg-slate-50 text-slate-900 h-11 font-medium transition">Go Pro</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-20">
+      <h3 class="text-3xl font-bold">FAQ</h3>
+      <div class="mt-6 space-y-4">
+        <details class="group rounded-xl border border-slate-200 bg-white p-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-medium">Does MobScan work offline?
+            <span class="ml-4 transition group-open:rotate-180">▾</span>
+          </summary>
+          <p class="mt-3 text-slate-600 text-sm">Yes. All scanning and enhancement run on‑device. You can export and share without internet.</p>
+        </details>
+        <details class="group rounded-xl border border-slate-200 bg-white p-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-medium">How private is my data?
+            <span class="ml-4 transition group-open:rotate-180">▾</span>
+          </summary>
+          <p class="mt-3 text-slate-600 text-sm">We don’t collect your documents. Files are processed locally and stored on your device unless you choose to share or upload them.</p>
+        </details>
+        <details class="group rounded-xl border border-slate-200 bg-white p-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-medium">Can I reorder or merge pages?
+            <span class="ml-4 transition group-open:rotate-180">▾</span>
+          </summary>
+          <p class="mt-3 text-slate-600 text-sm">Absolutely. Reorder by drag and drop, merge multiple scans, and export one clean PDF.</p>
+        </details>
+        <details class="group rounded-xl border border-slate-200 bg-white p-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-medium">Is there a Pro version?
+            <span class="ml-4 transition group-open:rotate-180">▾</span>
+          </summary>
+          <p class="mt-3 text-slate-600 text-sm">The free version is powerful. Pro adds batch export, custom DPI/page size, and priority support.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+      <div class="rounded-3xl bg-gradient-to-br from-brand-600 via-violet-600 to-sky-600 text-white p-10 md:p-14 shadow-xl">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h3 class="text-3xl font-bold">Turn paper into perfect PDFs</h3>
+            <p class="mt-2 text-indigo-100">Scan homework, receipts, IDs, contracts — all in seconds.</p>
+          </div>
+          <div class="flex md:justify-end items-center gap-3">
+            <a href="#" class="inline-flex items-center rounded-2xl bg-white text-slate-900 hover:bg-slate-100 h-12 px-6 font-semibold transition">
+              <svg class="mr-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg>
+              Get MobScan
+            </a>
+            <a href="#demo" class="inline-flex items-center rounded-2xl bg-white/20 hover:bg-white/30 h-12 px-6 font-semibold transition">
+              <svg class="mr-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Watch demo
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-100 bg-white">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 text-sm text-slate-600">
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <div class="flex items-center gap-2 text-slate-700">
+          <span class="inline-grid place-items-center h-7 w-7 rounded-xl bg-gradient-to-br from-brand-500 to-violet-600 text-white shadow">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="10" rx="2"/></svg>
+          </span>
+          <span class="font-semibold">MobScan</span>
+          <span class="text-slate-400">© <span id="year"></span></span>
+        </div>
+        <div class="flex flex-wrap items-center gap-4">
+          <!-- TODO: Replace # with your real URLs -->
+          <a href="#" class="hover:text-brand-600">Privacy</a>
+          <a href="#" class="hover:text-brand-600">Terms</a>
+          <a href="mailto:support@yourdomain.com" class="hover:text-brand-600">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // tabs
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabPanels = document.querySelectorAll('.tab-panel');
+    function activateTab(targetId){
+      tabPanels.forEach(p => p.classList.add('hidden'));
+      const target = document.querySelector(targetId);
+      if(target){ target.classList.remove('hidden'); }
+      tabButtons.forEach(b => {
+        const selected = b.getAttribute('data-target') === targetId;
+        b.setAttribute('aria-selected', selected);
+        b.classList.toggle('bg-white', selected);
+        b.classList.toggle('shadow', selected);
+      });
+    }
+    tabButtons.forEach(btn => btn.addEventListener('click', () => activateTab(btn.getAttribute('data-target'))));
+    // init default
+    activateTab('#tab-enhanced');
+  </script>
+</body>
+</html>
